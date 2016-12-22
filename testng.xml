@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Sample Project">
+
+ 
+  
+  <groups>
+    <run>
+      <include name="low"/>
+    </run>
+  </groups>
+
+<test name="Test1">
+
+  <classes>
+    <class name="testGroup1"/>
+  </classes>
+</test>
+
+<test name="Test2">
+
+  <classes>
+    <class name="testGroup2"/>
+  </classes>
+</test>
+</suite>
